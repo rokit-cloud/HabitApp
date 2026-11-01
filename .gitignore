@@ -1,0 +1,7 @@
+target/
+pom.xml.backup
+*.log
+.env
+.idea/
+.vscode/
+.DS_Store

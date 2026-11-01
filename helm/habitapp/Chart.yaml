@@ -1,6 +1,6 @@
-﻿apiVersion: v2
+apiVersion: v2
 name: habitapp
-description: Helm chart for HabitApp
+description: Helm chart for HabitApp CI/CD and GitOps deployment
 type: application
-version: 0.1.0
-appVersion: "4.1.2"
+version: 0.2.0
+appVersion: "8"
