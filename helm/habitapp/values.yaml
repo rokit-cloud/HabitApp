@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: rokit45/habitapp
-  tag: "9"
+  tag: "10"
   pullPolicy: IfNotPresent
 
 service:
