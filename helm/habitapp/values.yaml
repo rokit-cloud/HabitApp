@@ -1,0 +1,22 @@
+﻿replicaCount: 1
+
+image:
+  repository: rokit45/habitapp
+  tag: "7"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+probes:
+  path: /
